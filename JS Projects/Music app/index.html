@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Musica - The Best music webApp</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="brand"><img src="Logo.jpg" alt="Music app"> Musica </li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Setting</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="songList">
+        <h1>Trending Today</h1>
+        <div>
+          <div class="songItem">
+            <img src="music icon.webp" alt="img" >
+            <span class="songname">DJ Snake - Let Me Love You ft. Justin Bieber</span>
+            <span class="songlistplay"><span>03:25</span><i  id="0" class="fa-solid songitemplay fa-play"></i></span>
+          </div>
+          <div class="songItem">
+            <img src="music icon.webp" alt="img" >
+            <span class="songname">The Weeknd – Blinding Lights</span>
+            <span class="songlistplay"><span>03:25</span><i id="1" class="fa-solid songitemplay fa-play"></i></span>
+          </div>
+          <div class="songItem">
+            <img src="music icon.webp" alt="img" >
+            <span class="songname">The Weeknd – Double Fantasy ft Future</span>
+            <span class="songlistplay"><span>03:25</span><i id="2" class="fa-solid songitemplay  fa-play"></i></span>
+          </div>
+          <div class="songItem">
+            <img src="music icon.webp" alt="img" >
+            <span class="songname">The Weeknd Double fantasies</span>
+            <span class="songlistplay"><span>03:25</span><i id="3" class="fa-solid songitemplay fa-play"></i></span>
+          </div>
+          <div class="songItem">
+            <img src="music icon.webp" alt="img" >
+            <span class="songname"> Sunflower  spider-man </span>
+            <span class="songlistplay"><span>03:25</span><i id="4" class="fa-solid songitemplay  fa-play"></i></span>
+          </div>
+          <div class="songItem">
+            <img src="music icon.webp" alt="img" >
+            <span class="songname"> Light Switch ft Charlie puth</span>
+            <span class="songlistplay"><span>03:25</span><i id="5" class="fa-solid songitemplay fa-play"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner">
+       
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="bottom">
+      <span><img src="LCPT.gif" alt="gif" id="gif"><h3 id="mastersongname">DJ Snake - Let Me Love You</h3></span>
+      <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+      <div class="icons">
+        <i id="previous" class="fa-solid fa-2x fa-backward" ></i>
+        <i class="fa-solid  fa-2x fa-play" id="masterplay"></i>
+        <i id="next" class="fa-solid fa-2x fa-forward"></i>
+      </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/53f0ccf57a.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+
+/** header part styling */
+
+ul {
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(60, 60, 60);
+    height: 8vh;
+    color: white;
+    width: 100vw;
+}
+
+nav li img {
+    height: 41px;
+    border-radius: 14px;
+}
+
+li {
+    margin: 14px 25px;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.brand {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+    margin: 7px;
+    padding: 8px;
+}
+
+/** main container styling */
+
+.container {
+    height: 71vh;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 8px;
+    background-image: url("austin-neill-hgO1wFPXl3I-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.songList {
+    margin: 25px 30px;
+}
+
+.songItem {
+    width: 33vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.songItem img {
+    width: 57px;
+    margin: 30px 10px;
+    height: 48px;
+    border-radius: 28%;
+}
+
+.songlistplay span {
+    margin: 0px 20px;
+}
+.songlistplay i{
+    cursor: pointer;
+}
+
+.songBanner {
+    width: 22vw;
+    height: 31vh;
+    background-color: bisque;
+    background: url("covers/Background.jpg") no-repeat;
+    background-size: contain;
+    top: 18vh;
+    position: relative;
+    left: 5vw;
+    border-radius: 14px;
+}
+
+
+/* bottom */
+.bottom {
+    height: 15vh;
+    position: sticky;
+    left: 50px;
+    bottom: 0;
+    text-align: center;
+    /* background-color: black; */
+    background-color: rgb(60, 60, 60);
+    width: 92vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 10%; */
+}
+
+.bottom input {
+    width: 59vw;
+    margin: 16px auto;
+    cursor: pointer;
+}
+
+.bottom span {
+    position: absolute;
+    display: flex;
+    left: 13px;
+    top: 21px;
+    color: white;
+}
+
+.bottom span>h3 {
+
+    margin: 35px 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+}
+
+.bottom span img {
+    position: relative;
+    height: 11vh;
+    width: 8vw;
+    opacity: 0;
+    border-radius: 24px;
+    transition: opacity 0.4 ease-in ; 
+    /* //todo  not eorking */
+}
+
+.icons {
+    color: white;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons i {
+    flex-grow: 10px;
+    cursor: pointer;
+}
